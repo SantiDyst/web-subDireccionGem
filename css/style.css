@@ -1,0 +1,103 @@
+/* Reset Básico y Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #004a8f;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 2rem auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Barra Lateral de Navegación */
+.sidebar {
+    width: 250px;
+    background-color: #e9ecef;
+    padding: 2rem;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    color: #004a8f;
+    border-bottom: 2px solid #004a8f;
+    padding-bottom: 0.5rem;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li a {
+    display: block;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    color: #555;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar li a:hover,
+.sidebar li a.active {
+    background-color: #004a8f;
+    color: white;
+}
+
+/* Área de Contenido Principal */
+.content {
+    flex-grow: 1;
+    padding: 2rem;
+}
+
+.content h2 {
+    color: #004a8f;
+    font-size: 2rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+}
+
+.content p {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+/* Pie de Página */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
