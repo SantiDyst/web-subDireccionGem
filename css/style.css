@@ -101,3 +101,16 @@ footer {
     width: 100%;
     bottom: 0;
 }
+#content-area p {
+    margin-bottom: 1em;
+    line-height: 1.6;
+}
+
+#content-area ul {
+    margin-left: 20px;
+    margin-bottom: 1em;
+}
+
+#content-area li {
+    margin-bottom: 0.5em;
+}

@@ -12,8 +12,6 @@ WEB-SUBDIRECCIONG...
 └── index.html
 
 
-
-
 main.js
 // Importamos los datos del modelo
 import { articles } from '../data/articles.js';
@@ -85,3 +83,9 @@ const App = {
 
 // Iniciar la aplicación cuando el DOM esté listo
 document.addEventListener('DOMContentLoaded', () => App.init());
+
+
+
+------ERRORES Y SOLUCIONES----------
+Los id: de los articulos no pueden contenter espacios, ya que se toma como un caracter e interrumple la busqueda
+por lo tanto no se visualizan en la web. Solucion : Escribir los id: con guiones. Ej: id: "Licencia-por-enfermedad" 
