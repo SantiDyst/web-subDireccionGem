@@ -1,22 +1,52 @@
 export const articles = [
     {
-        id: 'ley-6137-articulo-1',
-        title: 'LEY Nº 6137 - Artículo 1º',
-        description: 'MODIFÍCASE el artículo 141° de la Ley 4.067, que quedará redactado de la siguiente manera: "Artículo 141°. El personal femenino podrá hacer uso de ciento ochenta (180) días corridos de licencia por maternidad, con goce íntegro de haberes. Esta licencia comenzará a contarse a partir de los siete meses de embarazo, el que se acreditará mediante la presentación del certificado médico."'
+        "id": "ley-6137-articulo-1-detallado",
+        "title": "LEY Nº 6137 - Artículo 1º (Maternidad - Detallado)",
+        "description": "Artículo 141°. Las trabajadoras embarazadas tendrán derecho a 180 días seguidos de licencia por maternidad, cobrando su sueldo completo. Esta licencia comenzará a partir del séptimo mes de embarazo, y deberán presentar un certificado médico. Disposiciones: Obligatoria; suspende otras licencias; si no tiene 10 meses de antigüedad, no cobra; suplentes con 2 meses cobran; pérdida del beneficio si cambia de puesto; puede pedir cambio de tareas en embarazo de riesgo; profesoras de educación física pueden pedir reasignación sin reducir horas."
     },
     {
-        id: 'ley-6137-articulo-3',
-        title: 'LEY Nº 6137 - Artículo 3º',
-        description: 'MODIFÍCASE el artículo 144º de la ley 4.067, que quedará redactado de la siguiente manera: "Artículo 144. El término de ciento ochenta (180) días de licencia podrá modificarse en los siguientes casos: a) nacimientos múltiples: cuando se produzca el nacimiento de dos (2) o más niños se otorgará ciento noventa (190) días corridos de licencia, la que se ampliará a doscientos (200) días corridos cuando sean prematuros; b) si se produjera defunción fetal, entre el séptimo y noveno mes de gestación, se otorgará sesenta (60) días corridos de licencia, sin perjuicio de otros que podrán acordarse por enfermedad; c) si la defunción fetal, se produjera entre el cuarto y sexto mes de gestación se otorgarán treinta (30) días corridos de licencia, sin perjuicio de otros que podrían concederse por enfermedad; d) si se produjera la interrupción del embarazo, antes de los tres meses, se podrá conceder hasta quince (15) días de licencia".'
+        "id": "ley-6137-articulo-3-detallado",
+        "title": "LEY Nº 6137 - Artículo 3º (Casos especiales de maternidad)",
+        "description": "Extensión de licencia por maternidad: a) Partos múltiples: 190 días; si son prematuros, 200 días. b) Pérdida del bebé (7° a 9° mes): 60 días. c) Pérdida del bebé (4° a 6° mes): 30 días. d) Interrupción del embarazo antes del 3er mes: hasta 15 días."
     },
     {
-        id: 'anexo-ii-capitulo-ii-articulo-8',
-        title: 'ANEXO II - Artículo 8º',
-        description: 'Las licencias especiales para el tratamiento de la salud serán otorgadas con goce íntegro o parcial de haberes según se especifique en cada caso. a) Para el tratamiento de afecciones comunes, que inhabiliten para el desempeño del trabajo, ... se concederán al agente hasta treinta (30) días corridos, continuos o discontinuos, con percepción integra de haberes, durante el año calendario. Vencido este plazo, cualquier otra licencia que se conceda durante el curso del año por las mismas causas, será sin goce de haberes. b) Para el tratamiento de afecciones que por su naturaleza y evolución requieran prolongada asistencia médica... se concederán hasta dos (2) años de licencia con goce íntegro de haberes, y un (1) año más con el 50% de los mismos. Esta licencia se otorgará por días corridos, continuos o discontinuos.'
+        "id": "ley-6137-articulo-4",
+        "title": "LEY Nº 6137 - Artículo 4º (Ampliación excepcional)",
+        "description": "En casos excepcionales como retraso del parto, se puede extender la licencia hasta 10 días más usando licencia por enfermedad (corta o larga duración)."
     },
     {
-        id: 'anexo-ii-capitulo-ii-articulo-13',
-        title: 'ANEXO II - Artículo 13º',
-        description: 'a) El personal docente femenino gozará de noventa (90) días corridos de licencia por maternidad, con goce íntegro de haberes, fraccionados en dos (2) períodos de cuarenta y cinco (45) días, uno anterior y otro posterior al parto. En ningún caso la licencia anterior al parto podrá ser inferior a treinta (30) días; en este supuesto, el resto del período total se acumulará al período de descanso posterior al parto.'
+        "id": "ley-6137-articulo-181",
+        "title": "LEY Nº 6137 - Artículo 181º (Paternidad)",
+        "description": "Licencia de 5 días hábiles por nacimiento de hijo. Se debe presentar certificado de nacimiento dentro de los 15 días hábiles posteriores al parto."
     },
+    {
+        "id": "ley-6137-articulo-32",
+        "title": "LEY Nº 6137 - Artículo 32º (Lactancia)",
+        "description": "Permiso de 1 hora diaria por 180 días para amamantar. Puede tomarse al inicio, final o en dos bloques de 30 minutos. Extensión a 300 días si hay justificación médica o en partos múltiples. Aplica si trabaja más de 4 horas. Comienza 45 días después del parto."
+    },
+    {
+        "id": "anexo-ii-articulo-8",
+        "title": "ANEXO II - Artículo 8º (Licencias por salud)",
+        "description": "a) Enfermedades comunes: hasta 30 días al año con goce de haberes. b) Enfermedades graves: hasta 2 años con goce total y 1 año más con el 50%. c) Accidentes laborales: mismo plazo que enfermedades graves; no se descuentan indemnizaciones."
+    },
+    {
+        "id": "ley-6137-articulo-34",
+        "title": "LEY Nº 6137 - Artículo 34º (Suplentes y contratados)",
+        "description": "Suplentes: 1 día por mes si tienen contrato de 60 días. Hasta 10 días por enfermedad si tienen 4 meses de antigüedad. Duelo y matrimonio: 5 días. Accidentes: 50% de sueldo. Límites: licencias no pueden superar duración del contrato."
+    },
+    {
+        "id": "ley-6137-articulo-12",
+        "title": "LEY Nº 6137 - Artículo 12º (Cuidado familiar)",
+        "description": "20 días pagos por año para cuidar a un familiar enfermo o accidentado. Puede extenderse 20 días más sin sueldo. Requiere declaración jurada. Los días pueden tomarse seguidos o separados."
+    },
+    {
+        "id": "ley-6137-articulo-16",
+        "title": "LEY Nº 6137 - Artículo 16º (Licencia por duelo)",
+        "description": "a) 7 días: padres, hijos, pareja, hermanos. b) 3 días: abuelos, suegros, cuñados. c) 1 día: tíos, primos, sobrinos."
+    },
+    {
+        "id": "ley-6137-articulo-15",
+        "title": "LEY Nº 6137 - Artículo 15º (Matrimonio)",
+        "description": "15 días de licencia por matrimonio con goce íntegro de haberes. Puede usarse 15 días antes o 30 después del casamiento. Se acredita con libreta o certificado oficial."
+    }
 ];
